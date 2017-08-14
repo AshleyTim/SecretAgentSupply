@@ -1,0 +1,94 @@
+html {
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.company {
+  background-color: black;
+}
+
+.container {
+max-width: 960px;
+margin: 0 auto;
+}
+
+.company .container {
+  padding: 0.66rem 0;
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0px;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+.company span {
+  font-size: 1rem;
+}
+
+.main-banner {
+  height: 25em;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.headline {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  height: 8rem;
+  background-color: black;
+  padding: 2em 3em;
+}
+
+.headline h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product-image {
+  height: 9rem;
+  width: 9rem;
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.product-image img {
+  max-width: 8em;
+}
+
+.product-pen .product-watch .product-glasses {
+  height: 14em;
+  width: 14em;
+}
